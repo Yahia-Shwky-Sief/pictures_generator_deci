@@ -1,0 +1,7 @@
+ node_modules
+ .next
+ .husky
+ coverage
+ .eslintignore
+ stories
+ prettier.config.js

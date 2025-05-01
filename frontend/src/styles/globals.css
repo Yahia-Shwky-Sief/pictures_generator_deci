@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 :root {
   --background: #ffffff;
@@ -25,4 +25,3 @@ main {
   justify-content: center;
   min-height: 100vh;
 }
-
