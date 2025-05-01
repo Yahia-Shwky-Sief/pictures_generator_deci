@@ -98,12 +98,9 @@ class ImageController {
       const { filename, width, height } = req.query;
 
       if (!filename || !width || !height) {
-        res
-          .status(400)
-          .json({
-            message:
-              'Filename, width, and height query parameters are required.',
-          });
+        res.status(400).json({
+          message: 'Filename, width, and height query parameters are required.',
+        });
         return;
       }
 
